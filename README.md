@@ -12,5 +12,4 @@ Installation:
 There is also voice feature enabled in this project that uses espeak module in the linux. Please install espeak library in your operating system.
 
 
-
 HAVE FUN.

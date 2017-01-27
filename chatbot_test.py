@@ -3,7 +3,7 @@ import aiml
 import duckduckgo
 import re
 import pyttsx
-import speech_recognition
+#import speech_recognition
 
 engine = pyttsx.init()
 rate = engine.getProperty('rate')
