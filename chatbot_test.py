@@ -4,6 +4,7 @@ import duckduckgo
 import re
 import pyttsx
 #import speech_recognition
+import gui
 
 engine = pyttsx.init()
 rate = engine.getProperty('rate')
@@ -99,7 +100,7 @@ bot.respond("My name is "+client)
 
 while True:
     
-    query=raw_input("Enter your message >> ")
+    query=gui.ip()
     query=query.lower()
     
     if("when is" in query):
