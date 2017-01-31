@@ -29,14 +29,8 @@ class MyFrame(wx.Frame):
 
 	def OnAbout(self,event):
 		wx.MessageBox("This is a simple Wxpython hello World sample","About Hello world",wx.OK|wx.ICON_INFORMATION,self)
-
-
-	def inputbox():
-    	app = wx.PySimpleApp()
-    	dialog = wx.TextEntryDialog(None, 
-            	"Enter you message here.",
-            	"Text Entry", "", style=wx.OK|wx.CANCEL)
-    	if dialog.ShowModal() == wx.ID_OK:
-        	return dialog.GetValue()
-    
-        	
+	def inputbox(self):
+		app = wx.MyApp()
+		dialog = wx.TextEntryDialog(None, "Enter Your message","Text entry","",style=wx.OK|wx.CANCEL)
+		if dialog.ShowModal()==wx.ID_OK:
+			return dialog.GetValue()
