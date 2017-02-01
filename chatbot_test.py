@@ -4,7 +4,7 @@ import duckduckgo
 import re
 import pyttsx
 #import speech_recognition
-import gui as g
+
 
 engine = pyttsx.init()
 rate = engine.getProperty('rate')
@@ -76,8 +76,7 @@ bot.setBotPredicate("emotions", "I don't pay much attention to my feelings")
 bot.setBotPredicate("feelings"," I always put others before myself")
    
 
-app = g.MyApp()
-frame = g.MyFrame("MarvelBot",(50,60),(450,340))
+
 def web_search(query):
     try:
       answer=duckduckgo.get_zci(query,safesearch=False)
@@ -101,7 +100,7 @@ bot.respond("My name is "+client)
 
 while True:
     
-    query=frame.inputbox()
+    query=raw_input("Enter your message")
     query=query.lower()
     
     if("when is" in query):
