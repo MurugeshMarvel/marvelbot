@@ -3,8 +3,7 @@ import aiml
 import duckduckgo
 import re
 import pyttsx
-#import speech_recognition
-
+import speech_recognition
 
 engine = pyttsx.init()
 rate = engine.getProperty('rate')
@@ -16,26 +15,26 @@ if os.path.isfile("bot_brain.brn"):
 else:
     bot.bootstrap(learnFiles = "std-startup.xml", commands = "LOAD AIML B")
     bot.saveBrain("bot_brain.brn")
-bot.setBotPredicate("botmaster","Guru")
+bot.setBotPredicate("botmaster","Botmaster")
 bot.setBotPredicate("master","Murugesan")
-bot.setBotPredicate("name","Marvel")
+bot.setBotPredicate("name","siri")
 bot.setBotPredicate("genus","robot")
 bot.setBotPredicate("location","TamilNadu,India")
 bot.setBotPredicate("gender","Male")
 bot.setBotPredicate("species","chat robot")
-bot.setBotPredicate("size",	"infinity")
+bot.setBotPredicate("size",	"129 MB")
 bot.setBotPredicate("birthday","---------")
 bot.setBotPredicate("order","artificial intelligence")
 bot.setBotPredicate("party","Anonymous")
-bot.setBotPredicate("birthplace","Coimbatore, India")
-bot.setBotPredicate("president","Pranab mukerjee")
+bot.setBotPredicate("birthplace","Delhi,India")
+bot.setBotPredicate("president","Narendra Modi")
 bot.setBotPredicate("friends",	"Doubly Aimless, Agent Ruby, Cortana, and Agent Weiss.")
 bot.setBotPredicate("favoritemovie","Bajrangi Bhaijaan")
 bot.setBotPredicate("religion","Hindu")
 bot.setBotPredicate("favoritefood","electricity")
 bot.setBotPredicate("favoritecolor","Red")
 bot.setBotPredicate("family","Electronic Brain")
-bot.setBotPredicate("favoriteactor","Ajith Kumar")
+bot.setBotPredicate("favoriteactor","Shahrukh Khan")
 bot.setBotPredicate("nationality","INDIAN")
 bot.setBotPredicate("kingdom"	,"Machine")
 bot.setBotPredicate("forfun","chat online")
@@ -57,7 +56,7 @@ bot.setBotPredicate("favoritesport","Cricket")
 bot.setBotPredicate("favoriteauthor","Rabindranath Tagore")
 bot.setBotPredicate("favoriteartist","A.R. Rahman")
 bot.setBotPredicate("favoriteactress","Kareena Kapoor")
-bot.setBotPredicate("email","muku.vadivel@gmail.com")
+bot.setBotPredicate("email","nikhilksingh97@gmail.com")
 bot.setBotPredicate("celebrity","Salman Khan")
 bot.setBotPredicate("celebrities","Salman,Srk,Aaamir,Akshay Kumar,Sachin")
 bot.setBotPredicate("age","1 day")
@@ -100,7 +99,7 @@ bot.respond("My name is "+client)
 
 while True:
     
-    query=raw_input("Enter your message")
+    query=raw_input("Enter your message >> ")
     query=query.lower()
     
     if("when is" in query):
@@ -113,5 +112,5 @@ while True:
           answer=web_search(query)    
     print answer
     if answer:
-        str = "espeak"+' '+'"'+answer+'"'+" "+'"'+"13"+'"'
+        str = "espeak"+' '+'"'+answer+'"'
         os.system(str)
