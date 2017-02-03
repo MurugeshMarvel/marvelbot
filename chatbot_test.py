@@ -2,12 +2,12 @@ import os
 import aiml
 import duckduckgo
 import re
-import pyttsx
-import speech_recognition
+#import pyttsx
+#import speech_recognition
 
-engine = pyttsx.init()
+'''engine = pyttsx.init()
 rate = engine.getProperty('rate')
-engine.setProperty('rate', rate-60)
+engine.setProperty('rate', rate-60)'''
 bot = aiml.Kernel()
 
 if os.path.isfile("bot_brain.brn"):
@@ -110,7 +110,11 @@ while True:
           query=answer.splithi
           ("xyzsearch")[1]
           answer=web_search(query)    
-    print answer
+    
     if answer:
+        print answer
         str = "espeak"+' '+'"'+answer+'"'
         os.system(str)
+        
+    else :
+        print "the following query is not found, please try with other messages"
