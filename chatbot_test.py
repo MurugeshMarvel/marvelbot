@@ -2,6 +2,7 @@ import os
 import aiml
 import duckduckgo
 import re
+import gui
 #import pyttsx
 #import speech_recognition
 
@@ -96,10 +97,11 @@ def web_search(query):
 
 client="Muru"    
 bot.respond("My name is "+client)
+answer = "Hello, Myself IntellBot"
 
 while True:
     
-    query=raw_input("Enter your message >> ")
+    query=gui.chat(answer)
     query=query.lower()
     
     if("when is" in query):
