@@ -29,6 +29,10 @@
 <pattern>JALLIKATTU *</pattern>
 <template><set name="he">Do you like bulls</set>, Me too and also i dont like peta</template>
 </category>
+<category>
+<pattern>WHO IS DHONI</pattern>
+<template><set name="he">DHONI</set>I love Dhoni, Former captain of Indian Cricket Team..but called as CAPTAIN COOL</template>
+</category>
 <category><pattern>WHAT IS AI</pattern> <template>Artificial
 intelligence is the branch of engineering and science devoted to
 constructing machines that think. 
