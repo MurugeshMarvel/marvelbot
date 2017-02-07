@@ -13,6 +13,22 @@
 <pattern>WHO IS LAUREN</pattern>
 <template><set name="she">Lauren</set> is a bot on Pandorabots.</template>
 </category>
+<category>
+<pattern>WHO IS SACHIN</pattern>
+<template><set name="he">Sachin</set> is the god of cricket</template>
+</category>
+<category>
+<pattern>WHO IS SACHIN TENDULKAR</pattern>
+<template><set name="he">Sachin</set> is the god of cricket</template>
+</category>
+<category>
+<pattern>SACHIN</pattern>
+<template><set name="he">Yeah Sachin Tendulkar</set>he is the god of cricket</template>
+</category>
+<category>
+<pattern>JALLIKATTU *</pattern>
+<template><set name="he">Do you like bulls</set>, Me too and also i dont like peta</template>
+</category>
 <category><pattern>WHAT IS AI</pattern> <template>Artificial
 intelligence is the branch of engineering and science devoted to
 constructing machines that think. 

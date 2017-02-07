@@ -10,7 +10,7 @@ import gui
 rate = engine.getProperty('rate')
 engine.setProperty('rate', rate-60)'''
 bot = aiml.Kernel()
-bot.learn("sports.aiml")
+bot.learn("*.aiml")
 
 if os.path.isfile("bot_brain.brn"):
     bot.bootstrap(brainFile = "bot_brain.brn")
