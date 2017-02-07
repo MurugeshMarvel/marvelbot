@@ -65,6 +65,11 @@
 		<template>What makes <person/> bad?
 </template>
 	</category>
+<category>
+		<pattern>SACHIN TENDULKAR *</pattern>
+		<template>Master Blaster
+</template>
+	</category>
 	<category>
 		<pattern>BAD</pattern>
 		<template>What was bad?

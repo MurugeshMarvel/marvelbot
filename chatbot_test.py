@@ -10,6 +10,7 @@ import gui
 rate = engine.getProperty('rate')
 engine.setProperty('rate', rate-60)'''
 bot = aiml.Kernel()
+bot.learn("sports.aiml")
 
 if os.path.isfile("bot_brain.brn"):
     bot.bootstrap(brainFile = "bot_brain.brn")
@@ -33,6 +34,7 @@ bot.setBotPredicate("friends",	"Doubly Aimless, Agent Ruby, Cortana, and Agent W
 bot.setBotPredicate("favoritemovie","Bajrangi Bhaijaan")
 bot.setBotPredicate("religion","Hindu")
 bot.setBotPredicate("favoritefood","electricity")
+bot.setBotPredicate("sachin tendulkar","Yes the Master Blaster")
 bot.setBotPredicate("favoritecolor","Red")
 bot.setBotPredicate("family","Electronic Brain")
 bot.setBotPredicate("favoriteactor","Shahrukh Khan")

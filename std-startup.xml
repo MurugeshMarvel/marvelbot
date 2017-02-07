@@ -3,7 +3,7 @@
   <pattern>LOAD AIML B</pattern>
   <template>
           <!-- Load standard AIML set -->
-          <learn>*.aiml</learn>
+          <learn>sports.aiml</learn>
 
   </template>
 </category>
