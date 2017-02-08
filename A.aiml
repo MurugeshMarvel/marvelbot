@@ -49,6 +49,32 @@ Are you talking about an animal, vegetable or mineral?  </li>
 		<template>What kind of people do you meet in a <person/>?
 </template>
 	</category>
+	<category><pattern>* AUSTRALIAN OPEN 2016 MENS'S TITLE WINNER</pattern>
+<template>I Guess Novak djakovic</template></category>
+	
+	<category><pattern>* AUSTRALIAN OPEN 2016 WOMENS'S TITLE WINNER</pattern>
+<template>I Guess Angelique Kerber and she is from Germany</template></category>
+	<category><pattern>* FRENCH OPEN 2016 WOMEN'S TITLE WINNER</pattern>
+<template>Garbine Murguruza ...</template></category>
+
+<category><pattern>* FRENCH OPEN 2016 MEN'S TITLE WINNER</pattern>
+<template>Novak Djokovic</template></category>
+<category><pattern>* WIMBLEDON 2016 WOMENS'S WINNER</pattern>
+<template>Serena Williams</template></category>
+<category><pattern>* DRAVID</pattern>
+<template>He is a Cricket player... i hat him. stroke master</template>
+</category>
+
+<category><pattern>* DHONI</pattern>
+<template> Captain Cool, I love him </template></category>
+<category><pattern>* KOLHI</pattern>
+<template>He is the present captain of Indian Cricket team,, nice player but not a good captain</template></category>
+<category><pattern>* 2016 EURO CUP</pattern>
+<template>Yeah, that series took place in France right.</template></category>
+
+<category><pattern>
+
+
 	<category>
 		<pattern>A *</pattern>
 		<that>* YOUR MOTHER</that>
