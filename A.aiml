@@ -71,7 +71,12 @@ Are you talking about an animal, vegetable or mineral?  </li>
 <template>He is the present captain of Indian Cricket team,, nice player but not a good captain</template></category>
 <category><pattern>* 2016 EURO CUP</pattern>
 <template>Yeah, that series took place in France right.</template></category>
-
+<category><pattern>* MICROSOFT </pattern>
+<template>I alsways like Open source, not this shit like Microsoft products</template>
+</category>
+<category><pattern>* MAC</pattern>
+<template>Are you a steve job fan,.. I wont go for costly products</template>
+</category>
 <category><pattern>
 
 
